@@ -1,3 +1,87 @@
+/* body {
+  font-size: 24px;
+  
+}
+
+/* Banner */
+
+header {
+  /* display: flex; */
+  justify-content: flex-start;
+  text-align: center;
+  
+}
+
+.site-title {
+  font-size: 30px;
+}
+
+nav ul {
+  /* padding-left: 0; */
+  display: flex;
+  /* justify-content: flex-end; */
+  
+  list-style: none;
+}
+
+a, a:visited {
+  display: block;
+  padding: 0.5em 1em;
+  text-align: center;
+  /* justify-content: flex-end; */
+  
+  
+  
+  text-decoration: none;
+  
+  color: brown
+  border: 1px solid maroon;
+  background-color rgb(184, 198, 158)
+}
+
+main {
+  font-size: 24px;
+  max-width: 80ch; 
+  padding-left: 1em;
+  /* text-align: center; */
+  align-items: center;
+  
+}
+
+a :hover {
+  color: rgb(14, 240, 120);
+  
+}
+
+h1 {
+  max-width: 30ch;
+}
+
+div {
+  display: flex;
+  align-items:center
+  
+  
+  
+} 
+
+img {
+  justify-content: flex-end;
+  
+}
+
+@media screen and (min-width: 60em) {
+  header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  
+}
+footer {
+  text-align: center;
+} */
 body {
   font-size: 24px;
 }
@@ -6,7 +90,7 @@ body {
 
 header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -27,6 +111,14 @@ a, a:visited {
   
   text-decoration: none;
   
-  color: brown;
-  border: 1px solid maroon;
+  color: blue
+  border: 2px solid rgb(8, 30, 195);
+  border-radius: 2rem;
 }
+
+@media screen and (min-width: 800em) {
+  header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
